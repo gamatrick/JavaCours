@@ -1,7 +1,7 @@
+package exoSimple;
+
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Gatherer;
 
 
 /*
@@ -14,7 +14,7 @@ public class exo1 {
         chaines.add("a");
         chaines.add("b");
         chaines.add("3");
-        IO.println("exo1");
+        IO.println("exoSimple.exo1");
 
         /*
         Iterator<String> iterator = chaines.iterator();

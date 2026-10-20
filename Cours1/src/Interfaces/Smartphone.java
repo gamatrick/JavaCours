@@ -7,8 +7,10 @@ public class Smartphone extends Phone implements Gps, MusicPlayer, VideoPlayer {
         return new Coordonnees(42f, 2.8f);
     }
 
+    /*
     @Override
     public MusicPlayer(){
 
     }
+     */
 }
