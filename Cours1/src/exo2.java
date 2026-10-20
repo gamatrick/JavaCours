@@ -17,5 +17,11 @@ public class exo2 {
 
         System.out.println("Chaines: " + chaines.size());
 
+        for(String ch : chaines) {
+            IO.println(ch);
+        }
+
+        // on constate que l'ordre n'est pas conserver et que les doublons ne sont pas conserver
+
     }
 }

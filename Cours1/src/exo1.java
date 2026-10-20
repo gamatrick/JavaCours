@@ -31,5 +31,6 @@ public class exo1 {
             IO.println(ch);
         }
 
+        // on constate que l'ordre est préserver
     }
 }
