@@ -12,7 +12,7 @@ public class Travailleurs {
     private int salaire;
 
     public Travailleurs(int id, String nom, String prenom, String dateDeNaissance, String emploi,
-                       String employeur, String codePostalHabitation, String codePostalEmploi, int salaire) {
+                        String employeur, String codePostalHabitation, String codePostalEmploi, int salaire) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;

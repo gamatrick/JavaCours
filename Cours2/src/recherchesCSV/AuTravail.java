@@ -11,49 +11,7 @@ import java.util.Map;
 
 public class AuTravail {
 
-    public static void main(String[] args) throws IOException {
-        List<Travailleurs> travailleurs = lireFichier("/travailleurs.csv");
-
-        // 1. Salaire moyen
-        int total = 0;
-        for (Travailleurs t : travailleurs) {
-            total += t.getSalaire();
-        }
-        double moyenne = (double) total / travailleurs.size();
-        System.out.println("Salaire moyen : " + moyenne);
-
-        // 2. Métier le plus représenté
-        Map<String, Integer> metiers = new HashMap<>();
-        for (Travailleurs t : travailleurs) {
-            metiers.put(t.getEmploi(), metiers.getOrDefault(t.getEmploi(), 0) + 1);
-        }
-
-        String metierMax = "";
-        int nbMax = 0;
-        for (String metier : metiers.keySet()) {
-            if (metiers.get(metier) > nbMax) {
-                nbMax = metiers.get(metier);
-                metierMax = metier;
-            }
-        }
-        System.out.println("Métier le plus représenté : " + metierMax + " (" + nbMax + ")");
-
-        // 3. Les 5 prénoms les plus représentés
-        Map<String, Integer> prenoms = new HashMap<>();
-        for (Travailleurs t : travailleurs) {
-            prenoms.put(t.getPrenom(), prenoms.getOrDefault(t.getPrenom(), 0) + 1);
-        }
-
-        List<String> listePrenoms = new ArrayList<>(prenoms.keySet());
-        listePrenoms.sort((a, b) -> prenoms.get(b) - prenoms.get(a));
-
-        System.out.println("Les 5 prénoms les plus représentés :");
-        for (int i = 0; i < 5; i++) {
-            String prenom = listePrenoms.get(i);
-            System.out.println(prenom + " : " + prenoms.get(prenom));
-        }
-    }
-
+    // Lit le fichier CSV et le transforme en List<Travailleurs>
     public static List<Travailleurs> lireFichier(String nomFichier) throws IOException {
         List<Travailleurs> travailleurs = new ArrayList<>();
 
@@ -72,5 +30,50 @@ public class AuTravail {
         reader.close();
 
         return travailleurs;
+    }
+
+    // 1. Salaire moyen
+    public static double salaireMoyen(List<Travailleurs> travailleurs) {
+        int total = 0;
+        for (Travailleurs t : travailleurs) {
+            total += t.getSalaire();
+        }
+        return (double) total / travailleurs.size();
+    }
+
+    // 2. Métier le plus représenté
+    public static String metierLePlusRepresente(List<Travailleurs> travailleurs) {
+        Map<String, Integer> metiers = new HashMap<>();
+        for (Travailleurs t : travailleurs) {
+            metiers.put(t.getEmploi(), metiers.getOrDefault(t.getEmploi(), 0) + 1);
+        }
+
+        String metierMax = "";
+        int nbMax = 0;
+        for (String metier : metiers.keySet()) {
+            if (metiers.get(metier) > nbMax) {
+                nbMax = metiers.get(metier);
+                metierMax = metier;
+            }
+        }
+        return metierMax + " (" + nbMax + ")";
+    }
+
+    // 3. Les 5 prénoms les plus représentés
+    public static List<String> cinqPrenomsLesPlusRepresentes(List<Travailleurs> travailleurs) {
+        Map<String, Integer> prenoms = new HashMap<>();
+        for (Travailleurs t : travailleurs) {
+            prenoms.put(t.getPrenom(), prenoms.getOrDefault(t.getPrenom(), 0) + 1);
+        }
+
+        List<String> listePrenoms = new ArrayList<>(prenoms.keySet());
+        listePrenoms.sort((a, b) -> prenoms.get(b) - prenoms.get(a));
+
+        List<String> top5 = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            String prenom = listePrenoms.get(i);
+            top5.add(prenom + " : " + prenoms.get(prenom));
+        }
+        return top5;
     }
 }
