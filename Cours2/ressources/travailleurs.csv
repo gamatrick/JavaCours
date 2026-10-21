@@ -1,0 +1,110 @@
+id,nom,prenom,dateDeNaissance,emploi,employeur,code postal habitation,code postal emploi,salaire
+1,Martin,Jean,15031978,Ouvrier,Usine Renault,69007,69200,24500
+2,Bernard,Marie,22081985,Technicienne,Hôpital Central,75012,75013,31200
+3,Dubois,Pierre,3111972,Cadre,BNP Paribas,33000,33000,58400
+4,Thomas,Nathalie,17061990,Enseignante,Mairie de Lyon,69003,69006,36800
+5,Petit,François,29011968,Développeur,TechStart SAS,44000,44200,47500
+6,Robert,Sophie,11091982,Infirmier,Clinique du Parc,31000,31200,33100
+7,Richard,Christophe,5041975,Comptable,Audit & Partners,67000,67100,42300
+8,Durand,Julien,24121988,Ouvrier,Carrefour Logistique,59000,59170,22800
+9,Moreau,Camille,8071993,Vendeuse,Boulangerie Dupont,35000,35200,19600
+10,Laurant,Élodie,19021979,Architecte,Cabinet Moreau,75008,75009,54200
+11,Simon,Lucas,30051984,Mécanicien,Garage Central,63000,63100,26700
+12,Michel,Hugo,14101991,Chef de projet,SNCF,57000,57200,45800
+13,Lefebvre,Clara,2081986,Pharmacienne,Pharmacie du Centre,80000,80000,41200
+14,Leroux,Antoine,27031977,Ingénieur,EDF,13000,13100,52600
+15,Morel,Emma,16111994,Assistante,Mairie de Bordeaux,33800,33000,23400
+16,Fournier,Maxime,9061980,Gestionnaire,Renault Flins,78000,78500,38900
+17,Girard,Nicolas,21011973,Directeur commercial,L'Oréal,92000,92100,67500
+18,Bonnet,Pascale,4091987,Cohésion sociale,Mairie de Toulouse,31300,31000,28700
+19,Dupont,Alexandre,13041995,Stagiaire,Régie des Transports,62000,62100,16200
+20,Luc,Valérie,28071981,Gestionnaire RH,Cabinet Conseil Plus,76000,76100,44300
+21,Garcia,Marc,6121976,Chauffeur poids lourd,Transport Express,51000,51100,27800
+22,Roux,Céline,18051989,Sage-femme,Hôpital de Nantes,44200,44300,35600
+23,David,Bruno,25081974,Électricien,ERDF,34000,34000,32400
+24,Barre,Aurélie,10031992,Journaliste,Radio France,75011,75009,30800
+25,Perrin,Jérôme,1101983,Boulanger,Pâtisserie Martin,68000,68100,24100
+26,Morel,Sandra,12071978,Caissière,Super U,49000,49100,18500
+27,Lambert,Fabien,23021986,Policier,Police Nationale,69009,69003,37200
+28,Garcia,Isabelle,7041990,Éducatrice,Centre social,59200,59000,25900
+29,Rolland,Yves,15091971,Notaire,Cabinet Notarial,37000,37000,62800
+30,Blanc,Laura,29111984,Médecin,Groupe Hospitalier,33100,33000,78500
+31,Dumas,Aurélien,3061993,Moniteur auto-école,Auto-École du Sud,13008,13009,21400
+32,Saint,Claude,17011975,Marin,Pêche artisanale,29000,29900,26300
+33,Flores,Nadine,22081988,Aide-soignante,EHPAD Les Lilas,45000,45100,22700
+34,Petitjean,Rémy,9051979,Cuisinier,Restaurant Le Gourmet,67002,67001,28900
+35,Mercier,Sylvie,14121982,Gestionnaire de paie,Audit & Partners,67000,67100,39600
+36,Lemaire,Thibaut,26031991,Agent de sécurité,Sécuritas,59300,59000,19800
+37,Gauthier,Martine,8071977,Secrétaire médicale,Cabinet Dr. Lefèvre,44009,44000,24600
+38,Renaud,Pierre-Alain,31101985,Plombier,Artisan Plomberie,31004,31000,27500
+39,Dupuis,Céline,19041994,Animatrice,Centre aéré,76200,76100,18200
+40,Garnier,Franck,5091973,Foreur,Pétrochimie,76600,76200,34800
+41,Lemoine,Agnès,27011980,Cadre commercial,Bouygues Telecom,92000,92500,51200
+42,Poirier,Jean-Pierre,16061976,Gardien d'immeuble,Syndic Central,33000,33000,21800
+43,Rousset,Léa,2111989,Graphiste,Agence Créa,13001,13006,29700
+44,Martin-Luc,Vincent,11031981,Couvreur,BTP Rénovation,57000,57000,26100
+45,Dupont-Moreau,Sandrine,24081992,Recetteuse,Hôtel de Ville,44000,44000,23100
+46,Bernard-Leroy,Pascal,7121974,Contrôleur aérien,Aéroports de Paris,75015,75008,68900
+47,Girard-Dubois,Céline,13051987,Chargée de communication,Mairie de Marseille,13001,13002,35400
+48,Fournier-Lefebvre,Jean-Marc,29091978,Technicien réseau,Orange,69003,69006,43700
+49,Leroy-Girard,Nathalie,18021990,Assistante de direction,Cabinet d'avocats,59000,59800,32600
+50,Dupuis-Bonnet,Alexis,4071983,Boucher,Traiteur du Centre,31000,31000,28400
+51,Martin-Thomas,Lucie,21101995,Stagiaire marketing,Déodorant Plus,75008,75009,16800
+52,Bernard-Dubois,Florent,9041977,Chef de chantier,Eiffage,33000,33100,41200
+53,Dubois-Petit,Valérie,15081986,Infirmière libérale,Cabinet médical,69007,69003,38900
+54,Thomas-Robert,Yves,28011972,Inspecteur des impôts,DGFIP,44000,44000,46300
+55,Petit-Richard,Sophie,3061989,Éducateur sportif,Maison des sports,31000,31200,24700
+56,Robert-Durand,Christophe,17111981,Couvreur,BTP Rénovation,57000,57000,26100
+57,Richard-Moreau,Aurélie,22031993,Monitrice d'auto-école,Auto-École du Sud,13008,13009,21400
+58,Durand-Laurant,Bruno,6071975,Marin,Pêche artisanale,29000,29900,26300
+59,Moreau-Simon,Nadine,12091984,Aide-soignante,EHPAD Les Lilas,45000,45100,22700
+60,Laurant-Michel,Rémy,25121979,Cuisinier,Restaurant Le Gourmet,67002,67001,28900
+61,Simon-Lefebvre,Sylvie,8041982,Gestionnaire de paie,Audit & Partners,67000,67100,39600
+62,Lefebvre-Leroux,Thibaut,19081991,Agent de sécurité,Sécuritas,59300,59000,19800
+63,Leroux-Morel,Martine,1011977,Secrétaire médicale,Cabinet Dr. Lefèvre,44009,44000,24600
+64,Morel,Nour,17011997,Animateur socio-culturel,Maison des Jeunes,75018,75019,2100
+65,Fournier,Yasmine,29081981,Juge des enfants,Tribunal Judiciaire,44000,44900,4600
+66,Rolland,Karim,12051993,Agent d'entretien,ProClean Services,75020,75014,1800
+67,Lemoine,Samira,3121985,Psychologue,Centre Médico-Psychologique,67000,67200,3500
+68,Petit,Omar,26091979,Maçon,Rénovation Habitat Plus,31000,31500,2850
+69,Gauthier,Fatima,14041992,Créatrice de mode,Atelier Mode & Style,75003,75004,2950
+70,Benoit,Ali,7111987,Policier national,Commissariat Central,59000,59000,3200
+71,Rolland,Mohamed,19061994,Steward,Compagnie Aérienne du Sud,13001,13120,2300
+72,Lambert,Ahmed,1031982,Ingénieur réseau,Orange SA,75008,75009,4900
+73,Dumas,Nour,23071998,Monitrice auto-école,Auto École Progress,69007,69003,1950
+74,Barbier,Yasmine,16121989,Vétérinaire,Clinique Vétérinaire des Fleurs,44000,44300,3800
+75,Bruneau,Karim,8051977,Contrôleur aérien,DGA Aviation,78000,78600,5500
+76,Muller,Samira,21091991,Couturière,Tailleur sur Mesure,67000,67300,2400
+77,Picard,Fatima,13021986,Aide-soignante,EHPAD Les Tilleuls,57000,57400,2150
+78,Renaud,Ali,5081974,Notaire,Cabinet Notarial Renaud & Associés,34000,34000,6200
+79,Garcia,Mohamed,28041995,Livreur,Urbane Express,75012,75011,1850
+80,Bouvet,Ahmed,10071983,Ébéniste,Atelier Bois & Design,38000,38900,2600
+81,Lefevre,Nour,22011996,Journaliste,Radio France Médias,75008,75009,2800
+82,Chevalier,Yasmine,15061988,Avocate,Barreau de Lyon,69002,69006,4300
+83,Drouet,Karim,7101980,Pompier volontaire,Sapeurs-Pompiers du Nord,59000,59100,2500
+84,Martin,Samira,30031993,Coiffeuse,Salon Beauté & Tendances,76000,76100,2050
+85,Lecomte,Omar,18081976,Chef de cuisine,Grand Hôtel Palace,75007,75007,3900
+86,Rousseau,Fatima,9051990,Biologiste médical,Labo Analytique Plus,45000,45000,3600
+87,Poirier,Ali,24111985,Graphiste freelance,CréaDesign Studio,75011,75011,2700
+88,Bertrand,Mohamed,12021997,Agent d'accueil,Hôtel Mercure Centre,33000,33000,1900
+89,Giraud,Ahmed,6071984,Soudeur,Chantier Naval Atlantique,17000,17300,2850
+90,Lacroix,Nour,29091992,Archiviste,publique des Archives Nationales,75004,75004,2650
+91,Flores,Yasmine,17041987,Musicienne professionnelle,Orchestre National de France,75009,75009,3100
+92,Rolland,Karim,2121979,Responsable qualité,Automobiles du Sud SAS,31000,31700,4400
+93,Dupuis,Samira,25061994,Animatrice périscolaire,Centre Aubette,67000,67100,2000
+94,Lemoine,Omar,14031981,Peintre en bâtiment,Rénov'Pro Services,59000,59200,2350
+95,Benoit,Fatima,7081996,Étudiante en droit,Université Paris Nanterre,92000,92400,900
+96,Rolland,Ali,20011973,Inspecteur du travail,DIRECCTE Occitanie,31000,31000,4100
+97,Garcia,Mohamed,11051989,Cabliste,Fibre & Réseaux SA,75015,75013,2550
+98,Boulay,Ahmed,3101991,Taximan,Transports Urbains Métropole,44000,44000,2200
+99,Lemaire,Nour,26071986,Chargée de communication,Mairie de Nantes,44000,44000,3050
+100,Perrin,Yasmine,19021998,Stagiaire en RH,Cabinet Ressources Humaines Plus,69003,69003,1100
+101,Martin,Karim,8091978,Foreur de puits,TotalEnergies Exploration,64000,64200,5100
+102,Sauvage,Samira,31051993,Aide à domicile,CAD Nord Pas-de-Calais,59000,59800,1750
+103,Lefebvre,Omar,23041982,Maître nageur,Complexe Sportif Municipal,75019,75019,2100
+104,Dunant,Fatima,16081990,Diététicienne,Cabinet Nutrition Santé,38000,38100,2750
+105,Renaud,Ali,4011975,Commissaire de police,Préfecture du Rhône,69006,69006,4800
+106,Petit,Mohamed,27061995,Agent de maintenance,Bâtiments Publics Métropole,33000,33100,2450
+107,Benoit,Ahmed,13031987,Cordonnier artisan,Atelier Cuir & Traditions,75005,75005,2200
+108,Leroy,Nour,6111994,Chargée d'études urbaines,Cabinet Urbanisme & Territoires,44000,44100,3200
+109,Girard,Yasmine,28071989,Orthophoniste,Cabinet Paramédical du Parc,67000,67200,2900
