@@ -4,10 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class AuTravail {
 
@@ -15,7 +12,7 @@ public class AuTravail {
     public static List<Travailleurs> lireFichier(String nomFichier) throws IOException {
         List<Travailleurs> travailleurs = new ArrayList<>();
 
-        File fichier = new File(AuTravail.class.getResource(nomFichier).getPath());
+        File fichier = new File(Objects.requireNonNull(AuTravail.class.getResource(nomFichier)).getPath());
         BufferedReader reader = new BufferedReader(new FileReader(fichier));
 
         reader.readLine(); // on saute la ligne d'en-tête
